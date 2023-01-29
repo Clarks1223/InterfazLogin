@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Pagina1{
+public class Pagina1 extends Ventanas{
     private JPanel Pag1;
     private JLabel LRol;
     private JLabel LMensaje;
@@ -19,17 +19,32 @@ public class Pagina1{
     private JLabel LsetDateLog;
     private JLabel LLogo;
 
+    public Pagina1( String rol,String nom, String edad, String mail, String exp, String sms, String ultimoingreso){
+        LRol.setText(rol);
+        LsetNombre.setText(nom);
+        LsetEdad.setText(edad);
+        LsetMail.setText(mail);
+        LsetExp.setText(exp);
+        LsetNumMens.setText(sms);
+        LsetDateLog.setText(ultimoingreso);
+    }
 
-    public static void main(String[] args){
+    @Override
+    public JFrame abrirVentana(){
         JFrame frame= new JFrame("");
-        frame.setContentPane(new Pagina1().Pag1);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setContentPane(new Pagina1(LRol.getText(), "ING."+LsetNombre.getText(),LsetEdad.getText()+" años", LsetMail.getText(),LsetExp.getText()+" años",LsetNumMens.getText()+" nuevos",LsetDateLog.getText()).Pag1);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
         /*Para centrar la pantalla utilizo set locationRelative*/
         frame.setLocationRelativeTo(null);
         /*Para descativar las modificaciones de tamanio de pantalla */
         frame.setResizable(false);
+        return frame;
+    }
+    @Override
+    public void cerrarVentana(){
+
     }
 
 }

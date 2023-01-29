@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bdb59dd-f737-4764-9ae4-19fdf2ca423d" name="Changes" comment="form set in center screen">
-      <change afterPath="$PROJECT_DIR$/src/Pagina1.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pagina1.java" afterDir="false" />
+    <list default="true" id="8bdb59dd-f737-4764-9ae4-19fdf2ca423d" name="Changes" comment="Screen 1 created">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ventanas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Log.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Log.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pagina1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pagina1.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pagina1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pagina1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674870109380</updated>
       <workItem from="1674870110142" duration="9065000" />
-      <workItem from="1674968469904" duration="5093000" />
+      <workItem from="1674968469904" duration="5133000" />
+      <workItem from="1675006409446" duration="14886000" />
     </task>
     <task id="LOCAL-00001" summary="form set in center screen">
       <created>1674971288827</created>
@@ -66,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674971288827</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Screen 1 created">
+      <created>1674973635066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674973635066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="form set in center screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="form set in center screen" />
+    <MESSAGE value="Screen 1 created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Screen 1 created" />
   </component>
 </project>
