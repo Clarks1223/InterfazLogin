@@ -44,7 +44,6 @@ public class Log extends Ventanas {
                         Pagina1 pag1 = new Pagina1("Gerente General",
                                 "Pablo Uchuari", "24", "pablo.uchuari@epn.edu.ec",
                                 "2", "3", "20-01-2023");
-                        System.exit(0);
                         pag1.abrirVentana();
                     }
                     else {
@@ -56,17 +55,30 @@ public class Log extends Ventanas {
                     }
                 }
                 else if(usuario.equals("melani.molina@epn.edu.ec")) {
-                    if (contrasenia.equals("1234")) {
+                    if (contrasenia.equals("12345")) {
                         Pagina1 pag2 = new Pagina1("Administrador",
                                 "Melani Molina", "21", "melani.molina@epn.edu.ec",
                                 "1", "1", "20-01-2023");
-                        System.exit(0);
                         pag2.abrirVentana();
                     }
                     else{
                         intentos--;
                         JOptionPane.showMessageDialog(null,"El contrasenia incorrecta, tiene "+intentos+" intentos");
                         if (intentos == 0 ){
+                            System.exit(0);
+                        }
+                    }
+                }
+                else if (usuario.equals("josue.salazar@epn.edu.ec")){
+                    if (contrasenia.equals("123456")){
+                        Pagina1 pag3 = new Pagina1("Corrdinador","Josue Salazar",
+                                "21","josue.salazar@epn.edu.ec","2","1","21-01-2023");
+                        pag3.abrirVentana();
+                    }
+                    else{
+                        intentos--;
+                        JOptionPane.showMessageDialog(null,"El contrasenia incorrecta, tiene "+intentos+" intentos");
+                        if (intentos == 0 ) {
                             System.exit(0);
                         }
                     }
@@ -78,6 +90,7 @@ public class Log extends Ventanas {
                         System.exit(0);
                     }
                 }
+                contrasenia="";
             }
         });
         //Dar click en el campo ingrese usuario
