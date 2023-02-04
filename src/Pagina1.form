@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Pagina1">
-  <grid id="27dc6" binding="Pag1" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="Pag1" layout-manager="GridLayoutManager" row-count="11" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="10" left="10" bottom="10" right="10"/>
     <constraints>
       <xy x="20" y="20" width="787" height="520"/>
@@ -14,7 +14,7 @@
     <children>
       <component id="771a2" class="javax.swing.JLabel" binding="LMensaje">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Bienvenido"/>
@@ -22,7 +22,7 @@
       </component>
       <component id="d14e2" class="javax.swing.JLabel" binding="LNombre">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="155" height="16"/>
           </grid>
         </constraints>
@@ -32,7 +32,7 @@
       </component>
       <component id="a7bb1" class="javax.swing.JLabel" binding="LEdad">
         <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="155" height="16"/>
           </grid>
         </constraints>
@@ -42,7 +42,7 @@
       </component>
       <component id="4d06b" class="javax.swing.JLabel" binding="LCorreo">
         <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="155" height="16"/>
           </grid>
         </constraints>
@@ -52,7 +52,7 @@
       </component>
       <component id="3c1b1" class="javax.swing.JLabel" binding="LExperiencia">
         <constraints>
-          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="155" height="16"/>
           </grid>
         </constraints>
@@ -62,7 +62,7 @@
       </component>
       <component id="7c7ec" class="javax.swing.JLabel" binding="LMensajes">
         <constraints>
-          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="155" height="16"/>
           </grid>
         </constraints>
@@ -70,19 +70,9 @@
           <text value="Mensajes:"/>
         </properties>
       </component>
-      <component id="4bed2" class="javax.swing.JLabel" binding="LPerfil">
-        <constraints>
-          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="253" height="16"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="Perfil"/>
-        </properties>
-      </component>
       <component id="c80bb" class="javax.swing.JLabel" binding="LIngreso">
         <constraints>
-          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="155" height="16"/>
           </grid>
         </constraints>
@@ -92,7 +82,7 @@
       </component>
       <component id="afed0" class="javax.swing.JLabel" binding="LsetDateLog">
         <constraints>
-          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="...."/>
@@ -100,7 +90,7 @@
       </component>
       <component id="c494c" class="javax.swing.JLabel" binding="LsetNombre">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="....."/>
@@ -108,7 +98,7 @@
       </component>
       <component id="9bbad" class="javax.swing.JLabel" binding="LsetEdad">
         <constraints>
-          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="....."/>
@@ -116,7 +106,7 @@
       </component>
       <component id="d3625" class="javax.swing.JLabel" binding="LsetMail">
         <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="....."/>
@@ -124,15 +114,7 @@
       </component>
       <component id="945b8" class="javax.swing.JLabel" binding="LsetExp">
         <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="....."/>
-        </properties>
-      </component>
-      <component id="f2322" class="javax.swing.JLabel" binding="LsetNumMens">
-        <constraints>
-          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="....."/>
@@ -151,7 +133,7 @@
       </component>
       <component id="c5ead" class="javax.swing.JLabel">
         <constraints>
-          <grid row="2" column="0" row-span="5" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+          <grid row="2" column="0" row-span="7" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="253" height="300"/>
           </grid>
         </constraints>
@@ -162,10 +144,69 @@
       </component>
       <component id="1fdf" class="javax.swing.JLabel" binding="LRol">
         <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Administrador"/>
+        </properties>
+      </component>
+      <component id="47e0e" class="javax.swing.JLabel" binding="LConversonDivisas">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dolares a Euros"/>
+        </properties>
+      </component>
+      <component id="f2322" class="javax.swing.JLabel" binding="LsetNumMens">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="....."/>
+        </properties>
+      </component>
+      <component id="23b3e" class="javax.swing.JTextField" binding="TFIngresarDolares">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-5262925"/>
+          <text value="Ingrese la cantidad de dolares $$$"/>
+        </properties>
+      </component>
+      <component id="9697" class="javax.swing.JButton" binding="BCalcularEuros">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calcular"/>
+        </properties>
+      </component>
+      <component id="b8a82" class="javax.swing.JLabel" binding="LResultadoEuros">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="................."/>
+        </properties>
+      </component>
+      <component id="6fa93" class="javax.swing.JLabel" binding="LConversorDivisas">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Conversor de divisas:"/>
+        </properties>
+      </component>
+      <component id="fb234" class="javax.swing.JLabel" binding="LPerfil">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Perfil"/>
         </properties>
       </component>
     </children>
