@@ -38,15 +38,21 @@ Se utiliza para “get” y cambiar el espacio vertical entre las etiquetas en u
  Login
  
  ![image](https://user-images.githubusercontent.com/117754080/216838828-db13bf09-2234-4ba3-8f4d-94194092c680.png)
+ 
  En caso de que ingrese un correo o contraseña incorrecto
  
  ![image](https://user-images.githubusercontent.com/117754080/216838921-eca6a917-4eeb-4dd1-8ca2-2b7b36e36ef0.png)
- Pagina Principal
+ 
+ Perfil 1
  
  ![image](https://user-images.githubusercontent.com/117754080/216838879-da057da2-75b9-47e7-84b3-f2a06176c05a.png)
-
  
- ## Video Explicacion  
+ Perfil 2
+![image](https://user-images.githubusercontent.com/117754080/216838970-5063f3f4-9dc3-428d-96c8-a865a92baedc.png)
+
+Perfil 3
+
+![image](https://user-images.githubusercontent.com/117754080/216839039-a8c5e38b-da7c-4359-89db-ea77837b6cb3.png) 
  
 
 https://user-images.githubusercontent.com/113868310/216791189-141493fa-08ed-42bf-bae0-e57cd5f05002.mp4
