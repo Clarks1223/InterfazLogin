@@ -48,6 +48,7 @@ Se utiliza para “get” y cambiar el espacio vertical entre las etiquetas en u
  ![image](https://user-images.githubusercontent.com/117754080/216838879-da057da2-75b9-47e7-84b3-f2a06176c05a.png)
  
  Perfil 2
+ 
 ![image](https://user-images.githubusercontent.com/117754080/216838970-5063f3f4-9dc3-428d-96c8-a865a92baedc.png)
 
 Perfil 3
