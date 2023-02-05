@@ -34,6 +34,17 @@ Se utiliza para “get” y cambiar el espacio vertical entre las etiquetas en u
  JLabel se lo ocupo la mayoría de las veces ya con este se definió el usuario, la contraseña, iniciar sesión, además de insertar las imágenes, etc. 
  El JBotton para la creación del botón ingresar, el JRadioBotton para la opción de recordar contraseña “si” o “no”,
  JPasswordField para definir el campo de la contraseña. El JTextField para ingresar el usuario. JSpinner se lo utilizo para mover edad. 
+ ## Capturas de pantalla
+ Login
+ 
+ ![image](https://user-images.githubusercontent.com/117754080/216838828-db13bf09-2234-4ba3-8f4d-94194092c680.png)
+ En caso de que ingrese un correo o contraseña incorrecto
+ 
+ ![image](https://user-images.githubusercontent.com/117754080/216838921-eca6a917-4eeb-4dd1-8ca2-2b7b36e36ef0.png)
+ Pagina Principal
+ 
+ ![image](https://user-images.githubusercontent.com/117754080/216838879-da057da2-75b9-47e7-84b3-f2a06176c05a.png)
+
  
  ## Video Explicacion  
  
