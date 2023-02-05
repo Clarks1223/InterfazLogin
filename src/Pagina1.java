@@ -29,7 +29,8 @@ public class Pagina1 extends Ventanas{
     private JLabel LResultadoEuros;
     private JLabel LConversorDivisas;
     private JLabel LPerfil;
-
+    private JButton BVover;
+    static JFrame frame= new JFrame();
     public Pagina1( String rol,String nom, String edad, String mail, String exp, String sms, String ultimoingreso){
         LRol.setText(rol);
         LsetNombre.setText(nom);
@@ -55,25 +56,32 @@ public class Pagina1 extends Ventanas{
                 LResultadoEuros.setText(datos);
             }
         });
+        BVover.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                cerrarVentana();
+                Log venlog = new Log();
+                venlog.abrirVentana();
+            }
+        });
     }
 
     @Override
-    public JFrame abrirVentana(){
-        JFrame frame= new JFrame("");
+    public void abrirVentana(){
         frame.setContentPane(new Pagina1(LRol.getText(), "ING."+LsetNombre.getText(),
                 LsetEdad.getText()+" años", LsetMail.getText(),LsetExp.getText()+" años",
                 LsetNumMens.getText()+" nuevos",LsetDateLog.getText()).Pag1);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
         /*Para centrar la pantalla utilizo set locationRelative*/
         frame.setLocationRelativeTo(null);
         /*Para descativar las modificaciones de tamanio de pantalla */
         frame.setResizable(false);
-        return frame;
     }
     @Override
     public void cerrarVentana(){
+        frame.setVisible(false);
     }
 
 }

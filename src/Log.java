@@ -3,6 +3,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Log extends Ventanas {
     private JPanel panel1;
@@ -18,12 +20,12 @@ public class Log extends Ventanas {
     private JRadioButton RBSi;
     private JRadioButton RBNo;
     private JLabel LGuardarPassw;
-
     private String contrasenia="";
     private String usuario;
     int cont1=0;
     int cont2=0;
     int intentos=3;
+    static JFrame frame= new JFrame("Log");
 
     //Constructor
     public Log() {
@@ -43,8 +45,9 @@ public class Log extends Ventanas {
                     if (contrasenia.equals("1234")) {
                         Pagina1 pag1 = new Pagina1("Gerente General",
                                 "Pablo Uchuari", "24", "pablo.uchuari@epn.edu.ec",
-                                "2", "3", "20-01-2023");
+                                "2", "3", calfecha());
                         pag1.abrirVentana();
+                        cerrarVentana();
                     }
                     else {
                         intentos--;
@@ -57,9 +60,10 @@ public class Log extends Ventanas {
                 else if(usuario.equals("melani.molina@epn.edu.ec")) {
                     if (contrasenia.equals("12345")) {
                         Pagina1 pag2 = new Pagina1("Administrador",
-                                "Melani Molina", "21", "melani.molina@epn.edu.ec",
-                                "1", "1", "20-01-2023");
+                                "Melani Molina", "20", "melani.molina@epn.edu.ec",
+                                "1", "1", calfecha());
                         pag2.abrirVentana();
+                        cerrarVentana();
                     }
                     else{
                         intentos--;
@@ -72,8 +76,9 @@ public class Log extends Ventanas {
                 else if (usuario.equals("josue.salazar@epn.edu.ec")){
                     if (contrasenia.equals("123456")){
                         Pagina1 pag3 = new Pagina1("Corrdinador","Josue Salazar",
-                                "21","josue.salazar@epn.edu.ec","2","1","21-01-2023");
+                                "21","josue.salazar@epn.edu.ec","2","1",calfecha());
                         pag3.abrirVentana();
+                        cerrarVentana();
                     }
                     else{
                         intentos--;
@@ -102,7 +107,6 @@ public class Log extends Ventanas {
                     TIngreseUsuario.setText("");
                     cont1++;
                 }
-
             }
         });
         //Dar click en el campo ingrese contasenia
@@ -119,22 +123,25 @@ public class Log extends Ventanas {
     }
     // Metodos
     @Override
-    public JFrame abrirVentana(){
-        JFrame frame= new JFrame("Log");
+    public void abrirVentana(){
         frame.setContentPane(new Log().panel1);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
-        frame.setVisible(true);
         /*Para centrar la pantalla utilizo set locationRelative*/
         frame.setLocationRelativeTo(null);
         /*Para descativar las modificaciones de tamanio de pantalla */
         frame.setResizable(false);
-        return frame;
+        frame.setVisible(true);
     }
     @Override
     public void cerrarVentana(){
-        if (intentos < 1 ){
-            abrirVentana().setVisible(false);
-        }
+        frame.setVisible(false);
+    }
+    public String calfecha(){
+        String fecha;
+        Date date=new Date();
+        SimpleDateFormat formato= new SimpleDateFormat("dd/MM/YYYY");
+        fecha=formato.format(date);
+        return fecha;
     }
 }
