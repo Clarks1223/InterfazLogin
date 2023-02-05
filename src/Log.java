@@ -46,8 +46,8 @@ public class Log extends Ventanas {
                         Pagina1 pag1 = new Pagina1("Gerente General",
                                 "Pablo Uchuari", "24", "pablo.uchuari@epn.edu.ec",
                                 "2", "3", calfecha());
-                        pag1.abrirVentana();
                         cerrarVentana();
+                        pag1.abrirVentana();
                     }
                     else {
                         intentos--;
@@ -62,8 +62,8 @@ public class Log extends Ventanas {
                         Pagina1 pag2 = new Pagina1("Administrador",
                                 "Melani Molina", "20", "melani.molina@epn.edu.ec",
                                 "1", "1", calfecha());
-                        pag2.abrirVentana();
                         cerrarVentana();
+                        pag2.abrirVentana();
                     }
                     else{
                         intentos--;
@@ -77,8 +77,8 @@ public class Log extends Ventanas {
                     if (contrasenia.equals("123456")){
                         Pagina1 pag3 = new Pagina1("Corrdinador","Josue Salazar",
                                 "21","josue.salazar@epn.edu.ec","2","1",calfecha());
-                        pag3.abrirVentana();
                         cerrarVentana();
+                        pag3.abrirVentana();
                     }
                     else{
                         intentos--;
